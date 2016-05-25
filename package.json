@@ -14,5 +14,13 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rosuav/nodejs-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rosuav/nodejs-server/issues"
   }
 }

@@ -14,5 +14,9 @@ app.get('/:firstname/:lastname', function(request, response) {
     response.send(`Hello ${first} ${last}`);
 });
 
+app.get('/headers', function(request, response) {
+    response.json(request.headers);
+});
+
 //app.listen(process.env.PORT, process.env.IP);
 app.listen(8800, "0.0.0.0");

@@ -1,0 +1,15 @@
+{
+  "name": "hello_server",
+  "version": "0.0.0",
+  "description": "Test HTTP server in Node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "Chris Angelico",
+  "license": "MIT"
+}

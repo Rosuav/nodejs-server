@@ -9,8 +9,9 @@ app.get('/', function(request, response) {
 app.get('/:firstname/:lastname', function(request, response) {
     var first = request.params.firstname;
     var last = request.params.lastname;
-    //No string formatting in JS?
-    response.send(["Hello", first, last].join(" "));
+    //Interpolated strings aren't the same as string formatting, but
+    //for the simple cases, they'll do.
+    response.send(`Hello ${first} ${last}`);
 });
 
 //app.listen(process.env.PORT, process.env.IP);
